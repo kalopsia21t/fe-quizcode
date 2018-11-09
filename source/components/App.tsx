@@ -6,7 +6,9 @@ import Header from './common/Header/Header';
 class App extends React.Component<{}, {}> {
     public render(): JSX.Element {
         return (<div className={styles.app}>
-            <Header />
+            <div className={styles.appContent}>
+                <Header />
+            </div>
         </div>);
     }
 }

@@ -12,6 +12,7 @@ const CSS_LOADER_WITH_TYPES = {
     loader: 'typings-for-css-modules-loader',
     options: {
         modules: true,
+        localIdentName: '[name]__[local]--[hash:base64:5]',
         namedExport: true
     }
 }
