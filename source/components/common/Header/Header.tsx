@@ -10,9 +10,10 @@ export default class Header extends React.PureComponent<{}, {}> {
 
     public render(): JSX.Element {
         return (<header className={styles.header}>
-            <div>
-                <h3>QuizCode</h3>
-                <Button />
+            <h3>QuizCode</h3>
+            <div className={styles.authBlock}>
+                <Button title='Log In' />
+                <Button title='Sign Up' />
             </div>
         </header>);
     }
